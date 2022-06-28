@@ -7,6 +7,43 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 img {
   width: 600px;
 }
@@ -16,6 +53,10 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+}
+
+button {
+  padding: 10px;
 }
 
 input {
